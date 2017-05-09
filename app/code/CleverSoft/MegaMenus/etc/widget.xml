@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © 2016 Clever Mega Menu. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget id="cleversoft_megamenu" class="CleverSoft\MegaMenus\Block\Widget\Megamenu" is_email_compatible="true" placeholder_image="CleverSoft_MegaMenus::images/megamenu.png" ttl="86400">
+        <label translate="true">Clever MegaMenu</label>
+        <description translate="true">Show selected megamenu in frontend</description>
+        <parameters>
+            <parameter name="menu" source_model="CleverSoft\MegaMenus\Model\Menuoptions" xsi:type="select" required="true" visible="true">
+                <label translate="true">Menu</label>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>

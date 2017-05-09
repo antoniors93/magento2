@@ -1,0 +1,12 @@
+<?php
+$blockFooter = $this->getBlocks();
+?>
+<div class="footer container">
+	<div class="row">
+    <?php foreach ($blockFooter as $block): ?>
+        <div class="<?php echo $block['class'] ?>">
+            <?php echo $block['content'] ?>
+        </div>
+    <?php endforeach ?>
+	</div>
+</div>

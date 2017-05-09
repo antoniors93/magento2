@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author CleverSoft Team
+ * @copyright Copyright (c) 2016 CleverSoft
+ * @package CleverSoft_CleverLayeredNavigation
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="view_block_abstract_to_html_before">
+        <observer name="cleversoft_shopby_block_html_before" instance="CleverSoft\CleverLayeredNavigation\Observer\Admin\ViewBlockAbstractToHtmlBefore"/>
+    </event>
+
+    <event name="clevershopby_attribute_form_tab_build_after">
+        <observer name="clevershopby_attribute_form_tab_build_after" instance="CleverSoft\CleverLayeredNavigation\Observer\Admin\AttributeFormTabBuildAfter"/>
+    </event>
+
+    <event name="clevershopby_option_form_build_after">
+        <observer name="cleversoft_shopby_brand_option_form_build_after" instance="CleverSoft\CleverLayeredNavigation\Observer\Admin\OptionFormBuildAfter"/>
+    </event>
+</config>

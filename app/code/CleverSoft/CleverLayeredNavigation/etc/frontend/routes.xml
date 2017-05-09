@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author CleverSoft Team
+ * @copyright Copyright (c) 2016 CleverSoft
+ * @package CleverSoft_CleverLayeredNavigation
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="clevershopby" frontName="clevershopby">
+            <module name="CleverSoft_CleverLayeredNavigation" />
+        </route>
+    </router>
+</config>

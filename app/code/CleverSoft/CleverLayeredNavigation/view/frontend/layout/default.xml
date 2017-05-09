@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author CleverSoft Team
+ * @copyright Copyright (c) 2016 CleverSoft
+ * @package CleverSoft_CleverLayeredNavigation
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="CleverSoft_CleverLayeredNavigation::css/clevershopby.css"/>
+    </head>
+</page>
